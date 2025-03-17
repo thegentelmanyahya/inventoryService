@@ -13,7 +13,7 @@ let inventory = {
 app.use(bodyParser.json());
 
 // Health check endpoint
-app.get('/health', (req, res) => res.status(200).send('Hi every'));
+app.get('/health', (req, res) => res.status(200).send('Hi everyBody'));
 
 
 
